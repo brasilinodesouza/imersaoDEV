@@ -1,11 +1,23 @@
 body {
   font-family: 'Roboto Mono',monospace;
   min-height: 400px;
-  background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
+  background-image: url('foto.jpg');
   background-color: #000000;
-  background-size: 80vh;
-  background-position: center bottom;
+  background-size: 55vh;
+  background-position: center;
   background-repeat: no-repeat;
+}
+
+
+body label{
+  color: whitesmoke;
+}
+button{
+  font-size: 20px;
+  margin: 10px 10px;
+}
+body ::placeholder{
+  text-align: center;
 }
 
 .container {
@@ -26,6 +38,7 @@ body {
 
 .page-logo {
   width: 200px;
+  margin: 0px 0px 30px 0px;
 }
 
 .alura-logo {
